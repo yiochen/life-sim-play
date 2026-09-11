@@ -200,8 +200,12 @@ code:focus-visible {
   justify-content: flex-end;
   gap: 8px;
 }
-.annotation-panel > .annotation-primary {
-  width: 100%;
+.annotation-bulk-actions {
+  display: flex;
+  gap: 8px;
+}
+.annotation-bulk-actions button {
+  flex: 1;
 }
 .annotation-list {
   list-style: none;
